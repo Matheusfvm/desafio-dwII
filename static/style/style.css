@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(214, 213, 213);
+  margin: 0px;
+}
+
+h1.centralizado {
+  text-align: center;  
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+span.cabecalho {
+  display: flex;
+  justify-content: center;
+}
+
+span.tec {
+  color: rgb(59, 59, 59);
+}
+
+span.blog {
+  color: white;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+}
+
+p.navbar {
+  margin-right: 20px;
+  font-weight: bold;
+  color: white;
+}/* Seletor do menu de navegação*/
+
+p.data {
+  margin-top: -20px;
+}/* Seletor para datas das postagens*/
+
+p.mais {
+  margin-top: -15px;
+  color: orange;
+}/* seletor para os textos de "leia mais" e da div categoria*/
+
+p.fundo {
+  padding: 10px;
+  margin-top: 0px;
+  background-color: rgb(164, 164, 164);
+  color: rgb(59, 59, 59);
+}
+
+div.postagem {    
+  width: 650px;
+  margin-top: 10px;
+  margin-left: 25%;
+  padding: 10px;
+  background-color: white;  
+}
+
+h1.titulo {
+  color: orange;
+}
+
+.boxlateral {
+  float: right;
+  margin-right: 240px;
+}
+
+.cabecalho {
+  width: 100vw;    
+  background-color: orange;
+  margin-top: 0px;  
+}
+
+.lateral { 
+  width: 200px;
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px; 
+}
+
+.rodape {
+  background-color: rgb(164, 164, 164);
+  padding: 5px;
+  margin: 10px  240px 10px 380px;
+  text-align: center;
+  font-weight: bold;
+}
